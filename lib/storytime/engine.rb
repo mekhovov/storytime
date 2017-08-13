@@ -1,5 +1,5 @@
 require 'active_record'
-require 'bootstrap-sass'
+require 'bootstrap'
 require 'fog/aws'
 require 'carrierwave'
 require 'font-awesome-sass'

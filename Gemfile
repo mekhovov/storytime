@@ -14,4 +14,9 @@ gemspec
 # gem 'debugger'
 
 # gem 'storytime-admin', github: 'flyoverworks/storytime-admin', branch: 'dev'
-gem 'leather', github: 'CultivateLabs/leather', branch: 'master'
+
+gem 'leather', '>= 3.5', :git => "git@github.com:mekhovov/leather.git", :branch => 'master'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
