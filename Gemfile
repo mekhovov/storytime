@@ -17,6 +17,9 @@ gemspec
 
 gem 'leather', '>= 3.5', :git => "git@github.com:mekhovov/leather.git", :branch => 'master'
 
+## for local development
+# gem 'leather', '>= 3.5', :path => "/Users/alex/work/my_projects/leather"
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
