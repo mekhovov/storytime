@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency "kaminari", ">= 0.15"
   s.add_dependency "jbuilder", ">= 1.5"
   s.add_dependency "sass-rails", "~> 5.0.6"
-  s.add_dependency "bootstrap", "~> 4.1.1"
+  s.add_dependency "bootstrap", ">= 4.1.1", "< 4.6.0"
   s.add_dependency "rails-assets-tether", ">= 1.3.3"
   s.add_dependency "coffee-rails", ">= 4.0"
   s.add_dependency "jquery-rails", ">= 3.0"
